@@ -1,0 +1,21 @@
+/* body {
+        font-family: Arial, sans-serif;
+        background-image: url(https://livada-moldovei.md/wp-content/uploads/2019/02/42906833_773300869729885_8546232573913726976_o.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-color: ;
+    } */
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(142, 162, 142, 0.54), rgba(141, 206, 141, 0.841)), url(https://cdn.pixabay.com/photo/2016/11/30/15/23/apples-1873078_1280.jpg);
+}
+
+.navbar {
+    background-color: green;
+    background: linear-gradient(rgb(0, 128, 0), rgba(0, 158, 0, 0.992));
+    padding: 10px;
+    color: white;
+    
+}
