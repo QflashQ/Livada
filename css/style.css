@@ -1,21 +1,75 @@
-/* body {
-        font-family: Arial, sans-serif;
-        background-image: url(https://livada-moldovei.md/wp-content/uploads/2019/02/42906833_773300869729885_8546232573913726976_o.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        background-color: ;
-    } */
-
 body {
-    height: 100vh;
-    background: linear-gradient(rgba(142, 162, 142, 0.54), rgba(141, 206, 141, 0.841)), url(https://cdn.pixabay.com/photo/2016/11/30/15/23/apples-1873078_1280.jpg);
+    background: linear-gradient(rgba(142, 162, 142, 0.54), rgba(141, 206, 141, 0.841)), url(https://agrotv.md/wp-content/uploads/2022/12/po-2-scaled.jpg);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    background-position: center;
 }
 
-.navbar {
-    background-color: green;
-    background: linear-gradient(rgb(0, 128, 0), rgba(0, 158, 0, 0.992));
-    padding: 10px;
+header {
+    background: linear-gradient(#173809, #2a8105);
     color: white;
-    
+    height: auto;
+    padding: 10px;
+}
+
+main {
+    height: 87.7vh;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 2px 2px 5px orange;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(137, 165, 35);
+    text-decoration: dashed underline;
+    text-decoration-color: rgb(155, 155, 10);
+    color: #28411d;
+}
+
+p {
+    text-align: left;
+    margin: 30px;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background: radial-gradient(#2e8f04b0, #7a3303);
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+img {
+    width: 5%;
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    filter: drop-shadow(7px 7px 25px #00ff00);
+}
+
+.pro {
+    position: relative;
+    left: 90%;
+    width: 120px;
+    height: 140px;
+    background-color: aquamarine;
+    padding-left: 20px;
+    padding-top: 2px;
+
+}
+
+.red {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    background-color: rgba(255, 255, 255, 0.801);
 }
